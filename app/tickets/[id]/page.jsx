@@ -1,4 +1,6 @@
+import Loading from "@/app/loading";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 
 //get all ids at build time
 export async function generateStaticParams() {
@@ -31,12 +33,14 @@ export default async function TicketDetails({ params }) {
       <nav>
         <h2>Ticket Details</h2>
       </nav>
+      <Suspense fallback={<Loading />}>
       <div className="card">
         <h3>{ticket.title}</h3>
         <small>Created by {ticket.user_email}</small>
         <p>{ticket.body}</p>
         <div className={`pill ${ticket.priority}`}>priority</div>
       </div>
+      </Suspense>
     </main>
   );
 }
