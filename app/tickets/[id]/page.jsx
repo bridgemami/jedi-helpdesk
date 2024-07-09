@@ -1,9 +1,26 @@
+import { notFound } from "next/navigation";
+
+//get all ids at build time
+export async function generateStaticParams() {
+const resp = await fetch(`http://localhost:4000/tickets`);
+const tickets = await resp.json()
+return tickets.map(ticket=>( 
+      {
+        id: ticket.id
+      }))
+}
+//takes it to the 404 page
+export const dynamicParams = true
+
 async function getTicket(id) {
   const res = await fetch(`http://localhost:4000/tickets/${id}`, {
     next: {
       revalidate: 60,
     },
   });
+  if(!res.ok){
+    notFound() //404 page
+  }
   return res.json();
 }
 

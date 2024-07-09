@@ -1,8 +1,9 @@
 import Link from "next/link"
 async function getTickets() {
+    
     const res= await fetch('http://localhost:4000/tickets', {
         next: {
-            revalidate: 0 // use 0 to opt out of using cache
+            revalidate: 60 // use 0 to opt out of using cache //60 seconds *60minutes* 24 hours
         }
     })
     return res.json()
