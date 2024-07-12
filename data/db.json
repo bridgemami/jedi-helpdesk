@@ -1,26 +1,32 @@
-
 {
-    "tickets": [
-      {
-        "id": "1",
-        "title": "Fix the footer links please",
-        "body": "Lorem ipsum Yoda sit amet, consectetur Jedi adipiscing elit. Sith tempor incididunt ut labore et magna aliqua. Qui-Gon veniam, quis nostrud exercitation duel. Obi-Wan commodo consequat. Jedi nostrud ut aliquip ex ea commodo duis aute irure dolor in reprehenderit. Light saber est laborum.",
-        "priority": "low",
-        "user_email": "windu@jedi.com"
-      },
-      {
-        "id": "2",
-        "title": "Add in a new stylesheet",
-        "body": "Lorem ipsum dolor sit Yoda amet, consectetur Jedi adipiscing elit. Qui-Gon nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Obi-Wan irure dolor in reprehenderit in voluptate velit esse cillum. Yoda excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Sith sed do. Jedi training encompasses lightsaber combat, force meditation, and deep understanding of the force. The path of a Jedi is one of discipline, courage, and unwavering dedication to peace. Jedi masters guide Padawans through trials of wisdom and combat.",
-        "priority": "medium",
-        "user_email": "a.skywalker@jedi.com"
-      },
-      {
-        "id": "3",
-        "title": "Fix the footer links",
-        "body": "Lorem ipsum dolor sit amet, consectetur Jedi adipiscing elit. Qui-Gon nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Obi-Wan irure dolor in reprehenderit in voluptate velit esse cillum. Yoda excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Sith sed do. Jedi masters, like Yoda and Obi-Wan, train young Padawans in the ways of the force, lightsaber techniques, and the Jedi code. Each Jedi must face trials to become a knight, demonstrating their mastery of force powers and combat skills. The balance of the force is the ultimate goal.",
-        "priority": "high",
-        "user_email": "yoda@jedi.com"
-      }
-    ]
-  }
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Lorem ipsum Yoda sit amet, consectetur Jedi adipiscing elit. Sith tempor incididunt ut labore et magna aliqua. Qui-Gon veniam, quis nostrud exercitation duel. Obi-Wan commodo consequat. Jedi nostrud ut aliquip ex ea commodo duis aute irure dolor in reprehenderit. Light saber est laborum.",
+      "priority": "low",
+      "user_email": "windu@jedi.com"
+    },
+    {
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "Lorem ipsum dolor sit Yoda amet, consectetur Jedi adipiscing elit. Qui-Gon nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Obi-Wan irure dolor in reprehenderit in voluptate velit esse cillum. Yoda excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Sith sed do. Jedi training encompasses lightsaber combat, force meditation, and deep understanding of the force. The path of a Jedi is one of discipline, courage, and unwavering dedication to peace. Jedi masters guide Padawans through trials of wisdom and combat.",
+      "priority": "medium",
+      "user_email": "a.skywalker@jedi.com"
+    },
+    {
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "Lorem ipsum dolor sit amet, consectetur Jedi adipiscing elit. Qui-Gon nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Obi-Wan irure dolor in reprehenderit in voluptate velit esse cillum. Yoda excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Sith sed do. Jedi masters, like Yoda and Obi-Wan, train young Padawans in the ways of the force, lightsaber techniques, and the Jedi code. Each Jedi must face trials to become a knight, demonstrating their mastery of force powers and combat skills. The balance of the force is the ultimate goal.",
+      "priority": "high",
+      "user_email": "yoda@jedi.com"
+    },
+    {
+      "id": "3656",
+      "title": "Help I Need",
+      "body": "Lightsaber does not work",
+      "priority": "low",
+      "user_email": "yoda@jedi.com"
+    }
+  ]
+}
