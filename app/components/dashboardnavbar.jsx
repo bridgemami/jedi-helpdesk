@@ -5,10 +5,12 @@ export default function DashboardNavbar() {
   return (
     <nav>
       <Logo />
+      <Link href="/">
         <h1>Jedi Help Desk</h1>
-        <Link href="/">Dashboard</Link>
-        <Link href="/tickets">Tickets</Link>
-        <Link href="/tickets/create">Create Ticket</Link>
-      </nav>
-  )
+      </Link>
+      <Link href="/">Dashboard</Link>
+      <Link href="/tickets">Tickets</Link>
+      <Link href="/tickets/create">Create Ticket</Link>
+    </nav>
+  );
 }
